@@ -6,8 +6,19 @@
   }
 
   .projeto {
-    background-color: #e0e0ff;
+    background-color: transparent;
+      border: 2px solid #ff69b4; /* rosa */
+      border-radius: 12px;
+      padding: 25px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.2); /* leve brilho rosa */
+  }
+
+
+
+
+  background-color: #e0e0ff;
     padding: 15px;
     border-radius: 8px;
     text-align: center;
-  }

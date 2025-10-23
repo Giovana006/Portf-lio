@@ -1,0 +1,13 @@
+.linha-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .projeto {
+    background-color: #e0e0ff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }

@@ -6,7 +6,7 @@
 }
 
 .linha-projetos {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
   flex-wrap: wrap;
   justify-content: center;

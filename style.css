@@ -7,7 +7,7 @@
 
 .linha-projetos {
   display: block;
-  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;

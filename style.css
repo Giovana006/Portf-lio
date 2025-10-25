@@ -5,18 +5,19 @@
   background-color: #f5f5f5;
 }
 
-.container {
+.linha-projetos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .projeto {
   background-color: white;
+  border: 2px solid #ff69b4; /* rosa */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100px;
+  width: 250px;
   text-align: center;
   padding: 20px;
   transition: transform 0.3s;
@@ -65,8 +66,7 @@ linha-projetos {
 
 projeto {
   background-color: transparent;
-  border: 2px solid #ff69b4;
-  /* rosa */
+  border: 2px solid #ff69b4; /* rosa */
   border-radius: 36px;
   padding: 25px;
   width: 280px;
@@ -86,7 +86,8 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 gap: 20px;
 justify-items: center;
-flex-wrap: wrap projeto background-color: transparent;
+flex-wrap: wrap projeto 
+background-color: transparent;
 border: 2px solid #ff69b4;
 /* rosa */
 border-radius: 36px;

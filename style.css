@@ -10,17 +10,20 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .projeto {
   border: 3px solid #ff69b4; /* rosa */
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
   background-color: white;
   width: 100%;
   max-width: 500px;
   text-align: center;
   transition: transform 0.3s;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
 }
 
 projeto {
@@ -33,34 +36,6 @@ projeto {
   text-align: center;
   padding: 20px;
   transition: transform 0.3s;
-}
-
-projeto:hover {
-  transform: scale(1.05);
-}
-
-projeto img {
-  width: 100px;
-  margin-bottom: 15px;
-}
-
-.card p {
-  font-size: 14px;
-  color: #666;
-}
-
-.card a {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #1572B6;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.card a:hover {
-  background-color: #0d4f8b;
 }
 
 linha-projetos {
@@ -83,23 +58,3 @@ projeto {
   /* leve brilho rosa */
   flex-wrap: wrap
 }
-
-
-
-
-
-
-linha-projetos display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-gap: 20px;
-justify-items: center;
-flex-wrap: wrap projeto background-color: transparent;
-border: 2px solid #ff69b4;
-/* rosa */
-border-radius: 36px;
-padding: 25px;
-width: 280px;
-text-align: center;
-box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
-/* leve brilho rosa */
-flex-wrap: wrap

@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(200px, 1fr);
   gap: 20px;
-  justify-items: center;
+  justify-content: center;
 }
 
 .projeto {

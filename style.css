@@ -34,7 +34,7 @@ projeto {
   transition: transform 0.3s;
 }
 
-.projeto:hover {
+projeto:hover {
   transform: scale(1.05);
 }
 

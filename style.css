@@ -7,7 +7,7 @@
 
 .linha-projetos {
   display: grid;
-  grid-template-columns: repeat(500px, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   justify-content: center;
 }
@@ -19,6 +19,7 @@
   background-color: white;
   width: 100%;
   max-width: 500px;
+  text-align: center;
   transition: transform 0.3s;
 }
 
@@ -41,11 +42,6 @@ projeto:hover {
 projeto img {
   width: 100px;
   margin-bottom: 15px;
-}
-
-.projeto h3 {
-  margin: 10px 0;
-  color: #333;
 }
 
 .card p {
